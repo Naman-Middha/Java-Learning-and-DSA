@@ -6,6 +6,8 @@ class First {
     // Every Java program must have a class. The file name and class name should be the same.
     // The main() method is the entry point where the program starts running.
     public static void main(String[] args) {
+
+        System.out.println("hello world!");
         // Using Scanner class for user input
         Scanner sc = new Scanner(System.in);  // 'new' is used to create a new object
         int i = sc.nextInt();  // taking integer input
