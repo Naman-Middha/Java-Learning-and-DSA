@@ -6,15 +6,18 @@ public class conditions{
         Scanner sc = new Scanner(System.in);
         System.out.println("enter you age:");
         int age = sc.nextInt();
+        // checking whether the person is adult or not
         if(age>=18){
             System.out.println("Adult");
         }
         else{
-            System.out.println("Not Adult");
+            System.err.println("Not Adult");
         }
         System.out.print("enter number to check odd or even : ");
+
+        // odd and even numbers
         int number = sc.nextInt();
-        if(number%2==0){
+        if(number%2==0){ // if n/2 gives 0 as remainder
             System.out.println("even");
         }
         else{
