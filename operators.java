@@ -37,7 +37,7 @@ class operators {
         System.out.println("x || y (Logical OR): " + (x || y));
         System.out.println("!x (Logical NOT): " + (!x));
 
-        // Bitwise Operators (works on binary level)
+        // Bitwise Operators (works on binary.....  you can learn these by studying comuter architecture)
         System.out.println("\nBitwise Operators:");
         System.out.println("a & b (Bitwise AND): " + (a & b));
         System.out.println("a | b (Bitwise OR): " + (a | b));
