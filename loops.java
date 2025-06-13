@@ -1,5 +1,5 @@
-import java.util.*;
 // for loop  do while loop and while loop
+import java.util.*;
 public class loops {
     public static void main(String[] args){
         // i ++ = i = i +1 ;
@@ -27,7 +27,7 @@ public class loops {
             i++;
         }while (i<11);
 
-        // while checks condition first and do while first perform then checks the condition
+        // while loop checks condition first and do while first perform then checks the condition
 
         i = 12;
         while(i<11){
@@ -37,9 +37,9 @@ public class loops {
         }
         System.out.println("\n");
         i = 12;
-        // it will print first and then check condition
+        // it will print first and then checks condition
         do {
             System.out.println(i + " hello");
-        } while(i < 11);// this condition s always false but still it will print for once then check condition and stop
+        } while(i < 11);// this condition is always false but still it will print for once then check condition and stop
     }
 }
