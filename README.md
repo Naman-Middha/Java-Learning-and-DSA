@@ -1,5 +1,5 @@
 # Java-Learning-and-DSA
-my personal java learning and DSA practice hourney
+my personal java learning and DSA practice journey
 
 
 This repository contains my personal Java learning journey, including core Java concepts and Data Structures & Algorithms (DSA) practice.
